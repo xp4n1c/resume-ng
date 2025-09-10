@@ -1,831 +1,223 @@
 basics:
-  name: Bernard Niset
-  label: Senior Fullstack Developer (Freelance)
-  summary: |
-    As a Senior Fullstack Engineer, I utilize a strong background in Java-based backend 
-    services combined with extensive experience in modern frontend technologies. My recent 
-    shift to fullstack development allows me to apply my thorough knowledge of the Java Platform
-    and harness the capabilities of the Angular framework to create interactive and 
-    responsive user interfaces.
-
-    Testing continues to be a critical component of my development process. I am proficient 
-    in systematic unit testing and adept at using advanced integration tools such as 
-    Cypress and Playwright, which are essential for thorough application testing and 
-    effective backend simulation.
-
-    ### Specialties
-
-    Strong expertise in Angular, TypeScript, and JavaScript. Comprehensive experience in 
-    backend technologies, including Java, Spring, Hibernate, Web Services, and Cloud 
-    Computing. My approach focuses on integrating innovative frontend techniques with 
-    robust backend solutions to deliver superior outcomes for clients.
-  phone: +32 479 529 195
-  email: bn@smartobjects.be
+  name: "Danny Mejía Valdez"
+  label: "Backend Developer"
+  image: "https://example.com/avatar.png"
+  email: "dannym.mejia@gmail.com"
+  phone: "+34653163996"
+  url: "https://github.com/danny-mv"
+  website: "https://github.com/danny-mv"
+  summary: >-
+    Backend Developer con una sólida base en Java y Node.js. Tras una formación
+    intensiva en dos bootcamps, he adquirido una valiosa experiencia práctica a través
+    de la colaboración en proyectos reales y complejos, liderando el desarrollo de un
+    MVP y trabajando en equipos SCRUM. Actualmente compagino mi desarrollo profesional
+    con un rol de Data Annotator, y busco activamente mi primer rol remunerado a tiempo
+    completo para aplicar mi pasión por crear soluciones de software eficientes y escalables.
   location:
-    address: Clos du Parnasse, 13 / 19
-    postalCode: "1050"
-    city: Brussels
-    countryCode: Belgium
-  website: https://www.smartobjects.be
+    address: "Barcelona"
+    postalCode: "08001"
+    city: "Barcelona"
+    countryCode: "ES"
+    region: "Cataluña"
   profiles:
-    - network: linkedin
-      username: bernardniset
-      url: https://www.linkedin.com/in/bernardniset
-    - network: twitter
-      username: herge21
-      url: https://twitter.com/herge21
-    - network: github
-      username: bn3t
-      url: https://github.com/bn3t
+    - network: "linkedin"
+      username: "danny-mv"
+      url: "https://linkedin.com/in/danny-mv"
+    - network: "github"
+      username: "danny-mv"
+      url: "https://github.com/danny-mv"
+
 work:
-  - company: RVA-ONEM (via 5thfloor)
-    disposition: current
-    position: Senior Fullstack Developer
-    description: Fullstack development in Angular and Java
-    website: "https://www.onem.be"
-    startDate: "2024-04-01"
-    methodology: Agile/Scrum
+  - name: "Concentrix (a través de ETT)"
+    position: "Data Annotator"
+    startDate: "2024-09"
+    endDate: "2025-09"
     summary: >-
-      Working on admissibility and temporary unemployment projects for the
-      [RVA-ONEM](https://www.onem.be) organization.
+      Realicé proyectos intermitentes de anotación y etiquetado de datos para el
+      entrenamiento de modelos de IA. Este rol me permitió mantenerme activo en el sector
+      tecnológico y perfeccionar mi atención al detalle, mientras continuaba desarrollando
+      proyectos personales y buscando activamente una oportunidad a largo plazo como Backend Developer.
     highlights:
-      - Backend development with Spring Boot / Hibernate / Microsoft SQL Server
-      - Frontend development with Angular
-      - Testing with Cypress / Playwright
-      - DevOps with Azure DevOps / Bamboo / Docker / Kubernetes / Helm / Openshift
-    technologies:
-      - angular
-      - java
-      - kotlin
-      - spring boot
-      - hibernate
-      - typescript
-      - mssql
-      - openapi
-      - cypress
-      - playwright
-      - docker
-      - kubernetes
-      - openshift
-      - helm
-      - azure-devops
-  - company: Ecole-IT
-    disposition: current
-    position: Engineering School Teacher
-    description: ReactJS / Spring Boot / Database
-    website: "https://ecole-it.com"
-    startDate: "2023-09-01"
-    endDate: "2024-06-30"
-    methodology: Teaching / Live coding / Exercises
-    summary: >-
-      Teaching software engineering courses to master's degree students at [**Ecole-IT**](https://ecole-it.com), 
-      focusing on modern web development and database design.
-    highlights:
-      - Database modeling and implementation using the Merise methodology
-      - Building scalable APIs and microservices with Spring Boot, Java, and Hibernate
-      - Modern frontend development using ReactJS and TypeScript
-    technologies:
-      - reactjs
-      - java
-      - spring boot
-      - hibernate
-      - typescript
-      - database
-  - company: GLS Belgium
-    disposition: current
-    position: Senior Frontend Developer
-    description: Frontend development in ReactJS and TypeScript
-    website: "https://mygls.be/en"
-    startDate: "2022-09-01"
-    endDate: "2024-03-31"
-    methodology: Agile/Scrum
-    summary: |
-      Contributed to developing the [MyGLS](https://mygls.be/en) project, 
-      a web application that facilitates personalized shipment options and 
-      enables users to monitor and track their shipments with ease.
-      GLS partners with independent entities for shipment deliveries, maintaining 
-      responsibility for their compliance with legal standards related to company 
-      status, drivers, and vehicles. To support this, we developed an 
-      [application](https://partner.mygls.be/en/) 
-      that organizes and stores information on transport partners, drivers, 
-      vehicles, and their legal documentation.
-    highlights:
-      - Frontend development using [**ReactJS**](https://react.dev/), **TypeScript**
-        and [**NextJS**](https://nextjs.org/) and [ant-design](https://ant.design/).
-      - Synchronize copywriting using [Phrase](https://phrase.com).
-      - Unit testing with react testing library.
-      - Integration and Screenshot testing with [Playwright](https://playwright.dev).
-    technologies:
-      - reactjs
-      - zustand
-      - ant-design
-      - apexcharts
-      - framer-motion
-      - typescript
-      - react-testing-library
-      - playwright
-      - vitejs
-      - nextjs
-      - axios
-      - leaflet
-      - openapi
-      - tailwindcss
-      - typesafe-i18n
-  - company: EVS Broadcast Equipment
-    disposition: page1
-    position: Senior Frontend Developer
-    description: Frontend development in ReactJS and TypeScript
-    website: "https://evs.com/products/asset-workflow-management/ipd-via"
-    startDate: "2021-05-01"
-    endDate: "2022-08-31"
-    methodology: Agile/Scrum
-    summary: >-
-      Contributed to the development of the Production Asset Management (PAM) 
-      [IPD.VIA](https://evs.com/products/asset-workflow-management/ipd-via) project. 
-      This PAM software stands as an essential tool for television networks, 
-      streamlining the efficient management, organization, and accessibility of 
-      their digital content and media assets.
-    highlights:
-      - >-
-        Development of a HiRes video player on the [**Electron**](https://www.electronjs.org/) platform. 
-        Interface with the in-house C++ video library via node n-api.
-      - >-
-        Development of a file ingest application ([Electron](https://www.electronjs.org/) + Web) 
-        for ingesting local video files.
-      - >-
-        Modernise the stack and port the application to latest versions of dependencies and tooling 
-        ([ReactJS](https://react.dev/), [Webpack](https://webpack.js.org/), [Electron](https://www.electronjs.org/), 
-        NodeJS, [CRA](https://create-react-app.dev/)).
-      - >-
-        Development of a [video editing tool for FOX Sports US](https://evs.com/company/news/evs-launches-ipd-via-create) 
-        (ReactJS).
-    technologies:
-      - cucumber
-      - cypress
-      - electron
-      - electron-forge
-      - nodejs
-      - react-redux
-      - reactjs
-      - redux
-      - redux-saga
-      - redux-thunk
-      - react-query
-      - typescript
-      - webpack
-      - cpp
-      - node-gyp
-      - node-napi
-  - company: Kensu
-    disposition: page1
-    position: Senior Frontend Developer
-    description: Frontend development in ReactJS and TypeScript
-    website: https://www.kensu.io
-    startDate: "2019-12-01"
-    endDate: "2021-04-30"
-    methodology: Agile/Scrum
-    summary: |
-      Developed proprietary [Data Observability](https://www.kensu.io/product/features) software 
-      to help organizations ensure data quality, reliability, and integrity through 
-      comprehensive monitoring and analysis of their data ecosystem.
-    highlights:
-      - New features in the frontend using [ReactJS](https://react.dev/) and the
-        [**Antd Design System**](https://ant.design/).
-      - >-
-        Write [**OpenAPI**](https://swagger.io/specification/) (swagger) definitions to specify the interface with
-        the backend.
-      - Frontend testing with [**Cypress**](https://www.cypress.io/) and [**Wiremock**](https://wiremock.org/).
-      - Mock implementation of the backend to allow for parallel development
-    technologies:
-      - ant-design
-      - apexcharts
-      - axios
-      - css/sass
-      - cra
-      - cypress
-      - enzyme
-      - git
-      - github
-      - html
-      - jest
-      - json-schema
-      - jsonata
-      - nodejs
-      - openapi
-      - react-diagrams
-      - react-redux
-      - react-router
-      - react-query
-      - reactjs
-      - redux
-      - redux-toolkit
-      - typescript
-      - websocket
-      - wiremock
-  - company: Deutsche Bank Belgium
-    disposition: page1
-    position: Senior Frontend Developer
-    description: Frontend development in Angular
-    website: "https://www.deutschebank.be"
-    startDate: "2019-01-01"
-    endDate: "2019-11-30"
-    methodology: Agile/Scrum
-    summary: |
-      I contributed to the development of the bank's 
-      [Online Banking application](https://onlinebanking.deutschebank.be/), a 
-      customer-facing platform that provides account holders with access to 
-      traditional banking features like checking account balances, viewing 
-      transaction history, and making payments. My specific contributions 
-      involved developing an innovative feature that enables users to link cards 
-      from other banks, as well as enhancing the user experience on the sign-in screens.
-    highlights:
-      - >-
-        Card Linkage: allow users of OLB to link their third party cards to
-        their bank accounts.
-      - Signing screen
-      - Admin application used by internal bank users
-      - Code reviews (PRs) of frontend and backend code
-      - Mock implementation of the backend to allow for parallel development
-      - Frontend Testing with [**Cypress**](https://www.cypress.io/) and [**Wiremock**](https://wiremock.org/).
-    technologies:
-      - angular
-      - cypress
-      - typescript
-      - wiremock
-  - company: EVS Broadcast Equipment
-    disposition: page1
-    position: Senior Frontend Developer
-    description: Frontend development in ReactJS
-    website: "https://evs.com/products/asset-workflow-management/ipd-via"
-    startDate: "2018-03-01"
-    endDate: "2018-12-31"
-    methodology: Agile/Scrum
-    summary: >-
-      Development for the [IPD.VIA](https://evs.com/products/asset-workflow-management/ipd-via) project.
-    highlights:
-      - Development of a Workflow Management UI.
-      - Development of a HiRes video player on the [**Electron**](https://www.electronjs.org/) platform.
-      - >-
-        Development of a file ingest application ([**Electron**](https://www.electronjs.org/) + **Web**) for ingesting local
-        video files
-    technologies:
-      - cucumber
-      - cypress
-      - electron
-      - node-ffi
-      - node-gyp
-      - nodejs
-      - react-redux
-      - reactjs
-      - redux
-      - redux-saga
-      - redux-thunk
-      - typescript
-      - webpack
-  - company: EVS Broadcast Equipment
-    disposition: page1
-    position: Senior Backend Developer
-    description: Backend development in Java and Spring
-    website: "https://evs.com/products/asset-workflow-management/ipd-via"
-    startDate: "2017-11-01"
-    endDate: "2018-02-28"
-    methodology: Agile/Scrum
-    summary: "Development for the IPD.VIA project"
-    highlights:
-      - >-
-        Development of a **Transfer Agent** for transfering files from/to ftp, sftp,
-        [AWS S3](https://aws.amazon.com/s3/getting-started/), [Aspera](https://www.ibm.com/products/aspera), 
-        File Catalyst, Tape storage.
-      - >-
-        Automation test framework for integration testing the Transfer Agent, 
-        using **docker** and **docker-compose**.
-    technologies:
-      - spring
-      - amazon-web-services
-      - spring-boot
-      - java-8
-      - rest
-      - docker
-      - docker-compose
-  - company: Design is Dead (now Emakina)
-    disposition: page1
-    position: Senior Fullstack Developer
-    description: Fullstack development with AngularJS, Angular and Java
-    website: "https://www.emakina.com/en-be"
-    startDate: "2017-05-01"
-    endDate: "2017-10-30"
-    summary: >-
-      Development of applications for [Base Company](https://www.base.be/en/private.html).
-    highlights:
-      - Fulstack Development in Java, [**AngularJS**](https://angularjs.org/) and
-        [**Angular**](https://angular.io/) of features for the Base e-commerce website
-    technologies:
-      - angular
-      - angularjs
-      - cucumber
-      - hibernate
-      - html
-      - javascript
-      - junit
-      - maven
-      - oracle
-  - company: BNP Paribas Fortis
-    disposition: page2
-    position: Senior Developer, Technical Architect, and IT Integrator
-    description: Managed deployment and integration for Scrum team projects.
-    website: "https://www.bnpparibasfortis.be"
-    startDate: "2016-08-01"
-    endDate: "2017-04-30"
-    methodology: Agile/Scrum
-    summary: |
-      Orchestrated seamless deployment of Scrum team projects within the bank's 
-      infrastructure, ensuring product integration with dependent systems. 
-      Managed server provisioning, network configuration, and WebSphere setup. 
-      Oversaw application security, roles, and **SQL** script implementation. 
-      Mentored the development team on technical decisions and coding practices, 
-      and facilitated test automation with tools like 
-      [**Cucumber-Java**](https://cucumber.io/docs/installation/java/). 
+      - "Aseguramiento de la calidad y precisión en el etiquetado de datos."
+      - "Mantenimiento de la actividad profesional en el sector tecnológico."
+    technologies: [] # requerido por el schema
 
-      Worked within an Agile/Scrum methodology, utilizing technologies such as 
-      [**Hibernate**](https://hibernate.org/), [**Java**](https://www.java.com/en/), 
-      [**Oracle**](https://www.oracle.com/be/), [**Spring**](https://spring.io/) and
-      [**WebSphere**](https://www.ibm.com/products/websphere-application-server).
+volunteer:
+  - organization: "Punto Dulce"
+    position: "Líder de Desarrollo Backend (Voluntariado)"
+    url: "https://example.com"
+    startDate: "2024-07"
+    endDate: "2024-09"
+    summary: >-
+      Lideré el desarrollo voluntario del backend para un Producto Mínimo Viable (MVP) de un
+      e-commerce. Esta experiencia fue clave para consolidar mis habilidades en Java y Spring Boot
+      en un entorno de producto real, desde el diseño hasta el despliegue.
     highlights:
-      - Follow-up infrastructure provisioning of servers
-      - Follow-up configuration of network routing
-      - Follow-up Websphere setup for the application
-      - Manage security and roles
-      - Provide SQL scripts to DBAs and follow-up their execution
-      - >-
-        Follow up with the development team, guide technical choices and
-        implementation
-      - Provide tools to allow test automation
+      - "Diseño y gestión de la API RESTful para productos, carritos y pedidos."
+      - "Integración con base de datos MySQL y gestión de excepciones personalizadas."
+      - "Contenerización con Docker y configuración de despliegue automatizado con GitHub Actions en AWS EC2."
     technologies:
-      - bdd
-      - cucumber-java
-      - hibernate
-      - java
-      - oracle
-      - spring
-      - tdd
-      - websphere
-      - liquibase
-  - company: Takeeateasy.be
-    disposition: page2
-    position: Senior Fullstack Developer
-    description: Developed consumer apps; web, mobile, cloud in Agile team.
-    startDate: "2015-10-01"
-    endDate: "2016-07-31"
-    methodology: Agile/Scrum
+      - "Java"
+      - "Spring Boot"
+      - "MySQL"
+      - "Docker"
+      - "GitHub Actions"
+      - "AWS EC2"
+      - "API REST"
+  - organization: "ITA WIKI"
+    position: "Desarrollador Backend (Colaboración)"
+    url: "https://example.com"
+    startDate: "2023-09"
+    endDate: "2024-07"
     summary: >-
-      Developed and managed consumer-facing web and mobile applications, 
-      utilizing JavaScript, TypeScript, and Swift within an Agile/Scrum 
-      environment. Handled full lifecycle development with Spring/Hibernate and 
-      managed AWS hosting.
+      Colaboré durante 10 meses en el desarrollo de una plataforma de recursos para estudiantes como
+      parte de un equipo SCRUM. Fue mi primera inmersión en un proyecto de software a gran escala,
+      utilizando Node.js, TypeScript y PostgreSQL.
     highlights:
-      - Frontend web development in **JavaScript** and **TypeScript**
-      - iOS development for iPhone in [**Swift**](https://developer.apple.com/swift/)
-      - Backend development with [**Spring**](https://spring.io/)
-      - Manage the Application hosted on [**AWS**](https://aws.amazon.com) (S3, RDS, Elastic Beanstalk)
+      - "Participación activa en ceremonias SCRUM y desarrollo de nuevas funcionalidades."
+      - "Utilización de Koa y Prisma (ORM) para mejorar la eficiencia de la aplicación."
+      - "Colaboración en el diseño e implementación de un sistema Single Sign-On (SSO)."
     technologies:
-      - java
-      - javascript
-      - spring boot
-      - hibernate
-      - aws
-      - ios
-      - cloud
-      - angularjs
-      - typescript
-      - swift
-      - liquibase
-  - company: BNP Paribas
-    disposition: page2
-    position: >-
-      Senior Fullstack Developer - Application Architect - Dev Lead
-    description: >-
-      Fullstack development in JavaScript and Java with
-      Spring/Hibernate
-    website: "https://centric.bnpparibas.com/public/marketing/"
-    startDate: "2010-09-01"
-    endDate: "2015-09-30"
-    methodology: Agile/Scrum
-    summary: >
-      Developement, Team Leading and architectural design for the Centric project, 
-      delivering crucial trading and post-trade applications. Spearheaded the 
-      creation of framework tools and applications for FX trading, market 
-      data visualization, and regulatory EMIR reporting, leveraging Java and 
-      JavaScript technologies within an Agile/Scrum methodologies.
-    highlights: []
-    technologies:
-      - angularjs
-      - cxf
-      - hibernate
-      - highcharts
-      - java
-      - java-ee
-      - javascript
-      - jboss
-      - jquery
-      - oracle
-      - spring
-      - websphere
-      - wicket
-      - liquibase
-  - company: Electrabel - Engie
-    disposition: page2
-    position: Senior Software Developer
-    description: Backend J2EE and BPMN development of Energy Trading Application
-    website: ""
-    startDate: "2009-04-01"
-    endDate: "2010-08-31"
-    methodology: Waterfall
-    summary: >-
-      Contributed to the ETRM project, focusing on backend J2EE development and BPMN for 
-      energy trading applications. Developed components using [**Java**](https://www.java.com/en/), 
-      [**Spring**](https://spring.io/), and [**Hibernate**](https://hibernate.org/), 
-      implemented workflows. Utilized technologies such as Wicket, Jasper Reports, 
-      JBoss, Oracle, Ant, and SVN within a Waterfall methodology framework.
-    highlights: []
-    technologies:
-      - java
-      - spring
-      - hibernate
-      - wicket
-      - jasper-reports
-      - jboss
-      - oracle
-      - ant
-      - svn
-  - company: Direct Mobile SPRL
-    disposition: page2
-    position: Senior Software Developer and Owner
-    description: Architecture, Frontend, Backend developemnt in Java/J2EE
-    website: ""
-    startDate: "2006-10-01"
-    endDate: "2009-03-31"
-    summary: >-
-      Led the architecture, development, and production support of mobile applications. 
-      Specialized in Java/J2EE platforms, focusing on both frontend and backend systems, 
-      and leveraged technologies such as **Wicket**, **PostgreSQL**, **JBoss**, and **ActiveMQ** to 
-      deliver sophisticated mobile solutions.
-    highlights: []
-    technologies:
-      - java
-      - spring
-      - hibernate
-      - jee
-      - wicket
-      - mobile
-      - postgresql
-      - jboss
-      - activemq
-  - company: Newtec Cy
-    disposition: page2
-    position: Senior Software Developer
-    website: "https://www.newtec.eu/product/sat3play-ip-broadband-hub"
-    startDate: "2003-08-01"
-    endDate: "2006-09-30"
-    methodology: Extreme Programming
-    summary: >-
-      DVB-RCS Project. Development of the network Hub management application
-      (Customer Configuration Management Tool). J2EE Java Development with [**Jboss**](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)
-      / [**Hibernate**](https://hibernate.org/) / [**Spring**](https://spring.io/) on Linux/Windows.
-    highlights: []
-    technologies:
-      - j2ee
-      - java
-      - linux
-      - mysql
-      - hibernate
-      - spring
-      - soap
-      - jax-rpc
-      - xml-rpc
-      - jboss
-  - company: Golog SPRL
-    disposition: page2
-    position: Senior Software Developer and Architect
-    website: ""
-    startDate: "2002-01-01"
-    endDate: "2004-12-01"
-    summary: >
-      Development of a redirection system for bad requests done by ISPs Internet users. Design, 
-      development and technical support of the complete IT infrastructure following the 
-      requirements provided by the customer. The redirection engine is written in [**C++**](https://en.cppreference.com/w/) and 
-      [**Python**](https://www.python.org/), the administrator part is a web site written in **J2EE**.
-    highlights: []
-    technologies:
-      - c/c++
-      - python
-      - corba
-      - java
-      - j2ee
-      - jakarta
-      - struts
-      - hibernate
-      - linux
-      - tomcat
-      - jboss
-      - postgresql
-      - python
-  - company: IBM Belgium
-    disposition: page2
-    position: Senior Software Developer and Team Leader
-    description: Windows and Unix Development in C++
-    website: https://www.cls-group.com
-    startDate: "2000-09-01"
-    endDate: "2003-06-01"
-    methodology: Waterfall
-    summary: >-
-      Part of the GUI development for the [CLS Bank](https://www.cls-group.com/) system, ensuring 
-      cross-platform compatibility across Windows NT and [AIX](https://www.ibm.com/products/aix). 
-      Led the design and enhancement of a complex 
-      [**MFC/STL**](https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications?view=msvc-170) 
-      application and a [**C++**](https://en.cppreference.com/w/) API. Mentored a team of 6, improved code quality, provided 
-      [**AIX**](https://www.ibm.com/products/aix) support, and developed 
-      a [**Java**](https://www.java.com/en/) based system monitoring tool.
-    highlights: []
-    technologies:
-      - windows
-      - nt
-      - unix
-      - aix
-      - c++
-      - mfc
-      - stl
-      - rational rose
-      - java
-      - xml
-      - xslt
-      - xml-rpc
-  - company: "Various Companies - France, Belgium"
-    disposition: page3
-    position: Senior Developer and Team Leader
-    description: Windows and Unix Development in C++
-    startDate: "1991-01-01"
-    endDate: "2000-09-01"
-    methodology: Waterfall
-    summary: |
-      Senior Software Developer and Team Leader with a strong track record from 
-      1991-2000, specializing in the development of web and distributed applications, 
-      EDM systems, and workflow solutions. Led and contributed to key projects in a 
-      range of environments, utilizing technologies such as [**C**](https://en.cppreference.com/w/c), [**C++**](https://en.cppreference.com/w/), 
-      [**Java**](https://www.java.com/en/) and [**Python**](https://www.python.org/) 
-      across **Windows**, **UNIX** and **Linux** platforms. 
+      - "Node.js"
+      - "TypeScript"
+      - "PostgreSQL"
+      - "Koa"
+      - "Prisma"
+      - "SCRUM"
+      - "SSO"
 
-      Demonstrated expertise in database management and development tools, 
-      delivering scalable solutions in telecom, document management, 
-      and various freelance engagements.
-    highlights:
-      - Versatile Software Developer and Team Leader with a proven history of
-        leading innovative projects in telecom, document management, and web development
-        from 1991-2000.
-      - Expert in a multitude of programming languages and database systems across
-        various platforms.
-      - Delivered high-impact solutions and applications, both as a full-time
-        specialist and a freelance contractor, contributing to the
-        technological advancement of multiple organizations.
-    technologies:
-      - c
-      - c++
-      - corba
-      - forte
-      - gnu
-      - hp-ux
-      - java
-      - jsp
-      - linux
-      - mysql
-      - oracle
-      - python
-      - solaris
-      - sql server
-      - uml
-      - win32
-      - windows nt
-      - wml
-      - xwindows
-  - company: 7Ways
-    disposition: obsolete
-    position: Developer + Team leader
-    startDate: "1999-11-01"
-    endDate: "2000-08-01"
-    summary: >-
-      Developer + Team leader in a start-up company based in Sophia-Antipolis
-      (France) 7WAYS. Various development of web sites using Python, Java and C++.
-    technologies:
-      - windows-nt
-      - linux
-      - c++
-      - gnu
-      - corba
-      - python
-      - java
-      - mysql
-      - oracle
-      - dbms
-      - wap
-      - wml
-      - jsp
-      - uml
-  - company: Sema Group
-    disposition: obsolete
-    position: Developer
-    description: Distributed Application Development with Forte
-    website: ""
-    startDate: "1999-04-01"
-    endDate: "1999-11-01"
-    summary: >-
-      Three tiers distributed development of SemaVision product : Customer Care, 
-      Billing & Rating System for mobile telecommunication operators.
-    highlights: []
-    technologies:
-      - forte
-      - oracle
-      - unix
-      - hp-ux
-      - uml
-  - company: Netbay SA
-    disposition: obsolete
-    position: Developer and Team Leader
-    description: Windows Development in C++
-    startDate: "1997-09-01"
-    endDate: "1999-04-01"
-    summary: >-
-      Responsible for the analysis, planning and development of tools to do management 
-      of document databases.  Solutions to help the scanning and workflow processing of 
-      big amounts of documents.
-    technologies:
-      - windows
-      - winapi
-      - c++
-      - mfc
-      - sql-server
-      - ms-access
-      - solaris
-  - company: Dron Concept Informatique
-    disposition: obsolete
-    summary: >-
-      Responsible for the analysis, planning and development of an EDM software
-      package with a team of 3 developers. Responsible for feasibility
-      study, cost evaluation of specifics developments, supervision of the
-      developments.
-    position: Developer and Team Leader
-    description: Windows Development in C++
-    startDate: "1995-10-01"
-    endDate: "1997-09-01"
-    highlights: []
-    technologies:
-      - windows
-      - winapi
-      - visual-c++
-      - c++
-  - company: Misc
-    disposition: obsolete
-    position: Free-lance contractor in Belgium
-    description: Development in C++
-    website: ""
-    startDate: "1994-04-01"
-    endDate: "1995-09-01"
-    highlights:
-      - Several developments under Windows and MicroStation (CAD software).
-      - CD-ROM development (Trends Top 30).
-      - "CISCO SYSTEMS SA: Automatic Case Routing utility for support services in Brussels developed in C on HP-UX with a Oracle Database."
-      - "ARIANE II SA for the European Economics Commission: Analysis and realisation of an Microsoft Access application for report production concerning inventory and help desk systems."
-    technologies:
-      - windows
-      - unix
-      - hp-ux
-      - solaris
-      - microstation
-      - oracle
-      - ms-access
-      - c
-      - c++
-      - esql
-      - visual-basic
-      - mfc
-  - company: OLISOFT SPRL
-    disposition: obsolete
-    position: Developer
-    description: Development in C++
-    startDate: "1992-01-01"
-    endDate: "1994-02-01"
-    summary: >-
-      Development of a Workflow system under X-Windows OSF Motif.  Port of
-      this application to MS-Windows (using the C language). Project leader and 
-      Developer for a CAD document management systmem to manage
-      big raster documents (A0) and CAD documents viewing, viewing,
-      annotations layers management.
-    technologies:
-      - windows
-      - unix
-      - xwindows
-      - osf-motif
-      - c
-  - company: ISATIS SA
-    disposition: obsolete
-    position: Developer
-    description: Development in C
-    startDate: "1991-01-01"
-    endDate: "1992-12-31"
-    summary: >-
-      Development of miscellaneous management applications under Unix
-      (Accounting software, Budget and resource management system for the EEC)
-    highlights: []
-    technologies:
-      - unix
-      - environment
-      - sco
-      - sun
-      - aix
-      - icl
-      - oracle
-      - informix
-      - c-isam
-      - ingres
-      - c
-      - ingres4gl
-      - supernova-4gl
 education:
-  - institution: EPHEC
-    area: Computer Science
-    studyType: Bachelor
-    startDate: "1987-01-01"
-    endDate: "1991-01-01"
-  - institution: Institut des Arts de Diffusion
-    area: Sound Engineering
-    studyType: Bachelor
-    startDate: "1984-01-01"
-    endDate: "1987-01-01"
-  - institution: Athénée Royal Maurice Carème Wavre
-    area: Mathématiques
-    studyType: Enseignement secondaire
-    startDate: "1982-01-01"
-    endDate: "1984-01-01"
+  - institution: "ITAcademy"
+    url: "https://example.com"
+    area: "Backend Development with Node.js"
+    studyType: "Bootcamp"
+    startDate: "2023-02"
+    endDate: "2023-07"
+    score: ""
+    courses: []
+  - institution: "Ironhack"
+    url: "https://example.com"
+    area: "Java Backend Web Development"
+    studyType: "Bootcamp"
+    startDate: "2022-09"
+    endDate: "2022-10"
+    score: ""
+    courses: []
+
+certificates:
+  - name: "LPIC-OT DevOps Tools Engineer"
+    date: "2024-01"
+    issuer: "PUE"
+    url: "https://example.com"
+
 skills:
-  - name: Web Development
-    level: Master
+  - name: "Lenguajes de Programación"
+    level: ""
     keywords:
-      - ReactJS
-      - Angular
-      - WebPack
-      - Vite
-      - NextJS
-      - HTML
-      - CSS
-      - REST
-      - Tailwindcss
-  - name: Programming Languages
-    level: Master
+      - "Java"
+      - "TypeScript"
+  - name: "Frameworks y Librerías"
+    level: ""
     keywords:
-      - TypeScript
-      - JavaScript
-      - Java
-      - Kotlin
-      - C/C++
-  - name: Java Ecosystem
-    level: Master
+      - "SpringBoot"
+      - "Express.js"
+      - "Koa"
+      - "Prisma"
+      - "Sequelize"
+      - "React"
+      - "Next.js"
+  - name: "Bases de Datos"
+    level: ""
     keywords:
-      - Spring
-      - Hibernate
-  - name: Databases
-    level: Master
+      - "MySQL"
+      - "PostgreSQL"
+      - "MongoDB"
+  - name: "Testing"
+    level: ""
     keywords:
-      - PostgreSQL
-      - Mssql
-      - Oracle
-      - MySQL/MariaDB
-  - name: Tooling
-    level: Master
+      - "Junit"
+      - "Mockito"
+      - "Jest"
+      - "Vitest"
+  - name: "DevOps y Herramientas"
+    level: ""
     keywords:
-      - Docker
-      - Git
-  - name: Methodology
-    level: Master
-    keywords:
-      - Scrum
-      - TDD
-      - Testing Strategy
+      - "Docker"
+      - "Kubernetes"
+      - "Jenkins"
+      - "Ansible"
+      - "GIT"
+      - "GitHub Actions"
+      - "Vagrant"
+      - "Swagger"
+      - "JIRA"
+      - "Postman"
+
 languages:
-  - language: English
-    fluency: Full professional
-  - language: French
-    fluency: Native
-references:
-  - name: Jean-Francois Lentz (Software engineer and Development Team Leader)
-    reference: >-
-      Good team spirit and very professional... currently we are building a web
-      application in a very pragmatic and pleasant way.
-  - name: >-
-      Eric Lantonnet (Directeur Général Namebay (Nameshield Group), Ex. Membre
-      du Conseil d'Administration de l'AFNIC et membre du MEB (Monaco))
-    reference: >-
-      Bernard a fait pour 7Ways un travail de base essentiel qui a permis
-      l'essor de la registration de nom de domaine Internet "Registrar" pour ma
-      société et qui a été repris, en partie, par la suite, par de nombreux
-      Registrar. Son travail appliqué et très professionnel reste un très bon
-      souvenir pour moi.
-meta:
-  theme: elegant
+  - language: "Español"
+    fluency: "Nativo"
+  - language: "Catalán"
+    fluency: "C1 - Dominio operativo eficaz"
+  - language: "Inglés"
+    fluency: "B2 - Usuario independiente avanzado"
+
+projects:
+  - name: "E-commerce API"
+    startDate: "2024-01"
+    endDate: "2024-06"
+    description: >-
+      Desarrollé una API REST completa para un e-commerce utilizando Spring Boot y Java.
+      El proyecto incluyó gestión de usuarios, productos, carritos de compra y procesamiento
+      de pedidos con integración de pagos.
+    highlights:
+      - "Implementación de autenticación JWT y autorización basada en roles."
+      - "Diseño de base de datos relacional con MySQL."
+      - "Integración con servicios de pago externos."
+      - "Documentación completa con Swagger/OpenAPI."
+    technologies:
+      - "Java"
+      - "Spring Boot"
+      - "Spring Security"
+      - "MySQL"
+      - "JPA/Hibernate"
+      - "JWT"
+      - "Swagger"
+      - "Maven"
+    url: "https://github.com/danny-mv/ecommerce-api"
+  - name: "Sistema de Gestión Empresarial"
+    startDate: "2023-08"
+    endDate: "2023-12"
+    description: >-
+      Desarrollé un sistema de gestión para una pequeña empresa utilizando Node.js y Express.
+      El sistema permite gestionar inventario, clientes y generar reportes automáticos.
+    highlights:
+      - "Migración de sistema legacy a tecnologías modernas."
+      - "Implementación de sistema de reportes automatizados."
+      - "Optimización de consultas de base de datos."
+    technologies:
+      - "Node.js"
+      - "Express"
+      - "MongoDB"
+      - "Mongoose"
+      - "Chart.js"
+      - "PDF Generation"
+    url: "https://github.com/danny-mv/management-system"
+  - name: "Bank REST API"
+    startDate: "2022-10"
+    endDate: "2022-10"
+    description: >-
+      Como proyecto final del bootcamp de Ironhack, desarrollé una API REST completa para un
+      sistema bancario, permitiendo la gestión de cuentas y la interacción entre diferentes perfiles
+      de usuario (Clientes, Administradores, Terceros).
+    highlights:
+      - "Aplicación de Test-Driven Development (TDD) con Junit y Mockito."
+      - "Integración con MySQL mediante Spring Data JPA/JDBC."
+    technologies:
+      - "Java"
+      - "Spring Boot"
+      - "MySQL"
+      - "JPA/JDBC"
+      - "JUnit"
+      - "Mockito"
+      - "TDD"
+    url: "https://github.com/danny-mv/bank-api"

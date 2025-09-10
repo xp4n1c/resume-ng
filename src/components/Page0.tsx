@@ -4,15 +4,21 @@ import Experience from "./Experience";
 import Header from "./Header";
 import Languages from "./Languages";
 import Skills from "./Skills";
+import Volunteer from "./Volunteer";
+import Education from "./Education";
+import Projects from "./Projects";
 
 interface Page0Props {
   basics: ProcessedResume["basics"];
   skills: ProcessedResume["skills"];
   languages: ProcessedResume["languages"];
-  current: ProcessedResume["current"];
+  work: ProcessedResume["work"];
+  volunteer: ProcessedResume["volunteer"];
+  projects: ProcessedResume["projects"];
+  education: ProcessedResume["education"];
 }
 
-const Page0 = ({ basics, skills, current, languages }: Page0Props) => {
+const Page0 = ({ basics, skills, work, languages, volunteer, projects, education }: Page0Props) => {
   return (
     <>
       <Header name={basics.name} role={basics.label} summary={basics.summary} />
@@ -32,7 +38,10 @@ const Page0 = ({ basics, skills, current, languages }: Page0Props) => {
           <Languages languages={languages} />
         </aside>
         <div className="w-full sm:w-4/5">
-          <Experience work={current} />
+          <Experience work={work} />
+          <Volunteer volunteer={volunteer} />
+          <Projects projects={projects} />
+          <Education education={education} />
         </div>
       </div>
     </>

@@ -10,3 +10,36 @@ p {
   margin-top: 0.75rem !important;
   margin-bottom: 0.75rem !important;
 }
+
+/* Paginación automática para impresión */
+@media print {
+  /* Evitar que los elementos se rompan entre páginas */
+  .break-inside-avoid {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Forzar salto de página cuando sea necesario */
+  .page-break-before {
+    page-break-before: always;
+    break-before: page;
+  }
+  
+  /* Configurar tamaño de página */
+  @page {
+    size: A4;
+    margin: 0.5in;
+  }
+  
+  /* Evitar que los títulos queden huérfanos */
+  h1, h2, h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+  
+  /* Evitar que los trabajos se dividan entre páginas */
+  .job-item, .volunteer-item, .education-item, .project-item {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}

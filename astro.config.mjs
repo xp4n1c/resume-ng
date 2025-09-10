@@ -12,7 +12,9 @@ export default defineConfig({
   vite: {
     plugins: [ViteYaml()],
   },
+  
   server: {
+    allowedHosts: "lazyvim.dannymv.tech",
     port: 5173,
   },
 });
