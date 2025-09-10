@@ -76,6 +76,10 @@ export const resumeSchema = z
               .array(z.string().describe("e.g. Increased profits by 20% from 2011-2012 through viral advertising"))
               .describe("Specify accomplishments and achievements")
               .optional(),
+            technologies: z
+              .array(z.string().describe("e.g. Node.js, AngularJS"))
+              .describe("Specify multiple technologies")
+              .optional(),
           })
           .catchall(z.any()),
       )
@@ -206,6 +210,10 @@ export const resumeSchema = z
               .array(z.string().describe("e.g. AngularJS"))
               .describe("Specify special elements involved")
               .optional(),
+            technologies: z
+              .array(z.string().describe("e.g. React, Node.js"))
+              .describe("Specify technologies used in the project")
+              .optional(),
             startDate: z.any().optional(),
             endDate: z.any().optional(),
             url: z
@@ -244,9 +252,4 @@ export const resumeSchema = z
 
 export type Resume = z.infer<typeof resumeSchema>;
 
-export type ProcessedResume = Resume & {
-  current: Resume["work"];
-  page1: Resume["work"];
-  page2: Resume["work"];
-  page3: Resume["work"];
-};
+export type ProcessedResume = Resume;

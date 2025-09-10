@@ -12,22 +12,20 @@ import { ProcessedResume, Resume, resumeSchema } from "../schema/resume";
 
 import resumeYaml from "../../resume/resume.yaml";
 
-import Education from "../components/Education";
 import Page0 from "../components/Page0";
 import Page1 from "../components/Page1";
 import Page2 from "../components/Page2";
 import Page3 from "../components/Page3";
 import Navigation from "../components/Navigation";
 
-const resume = resumeSchema.parse(resumeYaml) as Resume;
+const parsed = resumeSchema.safeParse(resumeYaml);
+if (!parsed.success) {
+  const lines = parsed.error.issues.map(i => `• ${i.path.join(".")} → ${i.message}`);
+  throw new Error(`resume/resume.yaml inválido:\n${lines.join("\n")}`);
+}
+const resume: Resume = parsed.data;
 
-const processedResume: ProcessedResume = {
-  ...resume,
-  current: resume.work.filter((w) => w.disposition === "current"),
-  page1: resume.work.filter((w) => w.disposition === "page1"),
-  page2: resume.work.filter((w) => w.disposition === "page2"),
-  page3: resume.work.filter((w) => w.disposition === "page3"),
-};
+const processedResume: ProcessedResume = resume;
 
 const githubUrl = resume.basics.profiles.find((p) => p.network === "github")?.url;
 
@@ -59,19 +57,12 @@ const version = packageJson.version;
       <Page0
         basics={processedResume.basics}
         skills={processedResume.skills}
-        current={processedResume.current}
+        work={processedResume.work}
         languages={processedResume.languages}
+        volunteer={processedResume.volunteer}
+        projects={processedResume.projects}
+        education={processedResume.education}
       />
-      <div class="break-before-page">
-        <Page1 work={processedResume.page1} />
-      </div>
-      <div class="break-before-page">
-        <Page2 work={processedResume.page2} />
-      </div>
-      <div class="break-before-page">
-        <Page3 work={processedResume.page3} />
-        <Education education={processedResume.education} />
-      </div>
     </main>
   </body>
 </html>

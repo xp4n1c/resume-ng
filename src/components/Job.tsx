@@ -13,11 +13,11 @@ interface JobProps {
 export const Job = ({ job, index, incolumns = false }: JobProps) => {
   const endDate = job.endDate ? formatDate(job.endDate) : "Present";
   return (
-    <div key={`${job.company}-${index}`} className={clsx("mb-4", "break-inside-avoid")}>
+    <div key={`${job.name}-${index}`} className={clsx("mb-4", "break-inside-avoid", "job-item")}>
       <div className={clsx("flex flex-col justify-between")}>
         <div className="flex flex-col">
           <div className="flex flex-row justify-between">
-            <h3 className="text-2xl font-semibold tracking-wider">{job.company}</h3>
+            <h3 className="text-2xl font-semibold tracking-wider">{job.name}</h3>
             <div className="self-end text-gray-600 dark:text-gray-300">
               {formatDate(job.startDate)} - {endDate}
             </div>
