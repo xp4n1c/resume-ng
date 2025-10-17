@@ -1,29 +1,29 @@
 basics:
   name: "Danny Mejía Valdez"
-  label: "Backend Developer"
-  image: "https://example.com/avatar.png"
+  label: "Backend Developer | Generative AI | DevOps Enthusiast"
   email: "dannym.mejia@gmail.com"
   phone: "+34653163996"
   url: "https://github.com/danny-mv"
-  website: "https://github.com/danny-mv"
+  website: "https://resume.dannymv.tech"
   summary: >-
-    Backend Developer con una sólida base en Java y Node.js. Tras una formación
-    intensiva en dos bootcamps, he adquirido una valiosa experiencia práctica a través
-    de la colaboración en proyectos reales y complejos, liderando el desarrollo de un
-    MVP y trabajando en equipos SCRUM. Actualmente compagino mi desarrollo profesional
-    con un rol de Data Annotator, y busco activamente mi primer rol remunerado a tiempo
-    completo para aplicar mi pasión por crear soluciones de software eficientes y escalables.
+    Backend Developer especializado en Java y Node.js, con experiencia práctica en proyectos de 
+    e-commerce, gestión empresarial, plataformas educativas y APIs financieras. 
+    Contribuí como líder backend en un MVP real (Punto Dulce) y colaboré en proyectos SCRUM de gran escala (ITA Wiki).
+    Apasionado por la IA generativa, he desarrollado soluciones con LangChain, FastAPI, Groq y RAG sobre PostgreSQL/pgvector 
+    en proyectos como ConverSAfe-AI y Maily. 
+    Certificado en DevOps Tools Engineer, con experiencia en despliegue de aplicaciones en Docker, GitHub Actions, AWS y Oracle Cloud. 
+    Busco aportar valor inmediato en un equipo de desarrollo mientras sigo creciendo en backend, IA generativa y DevOps.
+
   location:
-    address: "Barcelona"
-    postalCode: "08001"
-    city: "Barcelona"
-    countryCode: "ES"
+    city: "Hospitalet de Llobregat"
     region: "Cataluña"
+    postalCode: "08907"
+    countryCode: "ES"
   profiles:
-    - network: "linkedin"
+    - network: "LinkedIn"
       username: "danny-mv"
       url: "https://linkedin.com/in/danny-mv"
-    - network: "github"
+    - network: "GitHub"
       username: "danny-mv"
       url: "https://github.com/danny-mv"
 
@@ -33,125 +33,67 @@ work:
     startDate: "2024-09"
     endDate: "2025-09"
     summary: >-
-      Realicé proyectos intermitentes de anotación y etiquetado de datos para el
-      entrenamiento de modelos de IA. Este rol me permitió mantenerme activo en el sector
-      tecnológico y perfeccionar mi atención al detalle, mientras continuaba desarrollando
-      proyectos personales y buscando activamente una oportunidad a largo plazo como Backend Developer.
+      Proyectos de anotación y etiquetado de datos para entrenar modelos de IA. 
+      Rol intermitente que reforzó mi atención al detalle mientras desarrollaba proyectos personales de backend e IA.
     highlights:
-      - "Aseguramiento de la calidad y precisión en el etiquetado de datos."
-      - "Mantenimiento de la actividad profesional en el sector tecnológico."
-    technologies: [] # requerido por el schema
+      - "Aseguramiento de calidad en etiquetado de datos."
+      - "Exposición a flujos de trabajo de IA."
+    technologies: []
 
 volunteer:
   - organization: "Punto Dulce"
     position: "Líder de Desarrollo Backend (Voluntariado)"
-    url: "https://example.com"
     startDate: "2024-07"
     endDate: "2024-09"
-    summary: >-
-      Lideré el desarrollo voluntario del backend para un Producto Mínimo Viable (MVP) de un
-      e-commerce. Esta experiencia fue clave para consolidar mis habilidades en Java y Spring Boot
-      en un entorno de producto real, desde el diseño hasta el despliegue.
+    summary: "Backend para un MVP de e-commerce."
     highlights:
-      - "Diseño y gestión de la API RESTful para productos, carritos y pedidos."
-      - "Integración con base de datos MySQL y gestión de excepciones personalizadas."
-      - "Contenerización con Docker y configuración de despliegue automatizado con GitHub Actions en AWS EC2."
-    technologies:
-      - "Java"
-      - "Spring Boot"
-      - "MySQL"
-      - "Docker"
-      - "GitHub Actions"
-      - "AWS EC2"
-      - "API REST"
+      - "API RESTful en Java + Spring Boot."
+      - "MySQL + JPA/Hibernate."
+      - "Docker + GitHub Actions + AWS EC2."
+    technologies: ["Java", "Spring Boot", "MySQL", "Docker", "AWS", "GitHub Actions"]
+
   - organization: "ITA WIKI"
-    position: "Desarrollador Backend (Colaboración)"
-    url: "https://example.com"
+    position: "Backend Developer (Colaboración)"
     startDate: "2023-09"
     endDate: "2024-07"
-    summary: >-
-      Colaboré durante 10 meses en el desarrollo de una plataforma de recursos para estudiantes como
-      parte de un equipo SCRUM. Fue mi primera inmersión en un proyecto de software a gran escala,
-      utilizando Node.js, TypeScript y PostgreSQL.
+    summary: "Plataforma colaborativa de recursos para estudiantes."
     highlights:
-      - "Participación activa en ceremonias SCRUM y desarrollo de nuevas funcionalidades."
-      - "Utilización de Koa y Prisma (ORM) para mejorar la eficiencia de la aplicación."
-      - "Colaboración en el diseño e implementación de un sistema Single Sign-On (SSO)."
-    technologies:
-      - "Node.js"
-      - "TypeScript"
-      - "PostgreSQL"
-      - "Koa"
-      - "Prisma"
-      - "SCRUM"
-      - "SSO"
+      - "Node.js + TypeScript con Prisma y PostgreSQL."
+      - "Diseño de sistema SSO."
+      - "Colaboración SCRUM."
+    technologies: ["Node.js", "TypeScript", "PostgreSQL", "Koa", "Prisma", "SCRUM"]
 
 education:
   - institution: "ITAcademy"
-    url: "https://example.com"
     area: "Backend Development with Node.js"
     studyType: "Bootcamp"
     startDate: "2023-02"
     endDate: "2023-07"
-    score: ""
-    courses: []
+
   - institution: "Ironhack"
-    url: "https://example.com"
     area: "Java Backend Web Development"
     studyType: "Bootcamp"
     startDate: "2022-09"
     endDate: "2022-10"
-    score: ""
-    courses: []
 
 certificates:
   - name: "LPIC-OT DevOps Tools Engineer"
-    date: "2024-01"
     issuer: "PUE"
-    url: "https://example.com"
+    date: "2024-01"
 
 skills:
-  - name: "Lenguajes de Programación"
-    level: ""
-    keywords:
-      - "Java"
-      - "TypeScript"
-  - name: "Frameworks y Librerías"
-    level: ""
-    keywords:
-      - "SpringBoot"
-      - "Express.js"
-      - "Koa"
-      - "Prisma"
-      - "Sequelize"
-      - "React"
-      - "Next.js"
-  - name: "Bases de Datos"
-    level: ""
-    keywords:
-      - "MySQL"
-      - "PostgreSQL"
-      - "MongoDB"
+  - name: "Backend Core"
+    keywords: ["Java", "Spring Boot", "Node.js", "TypeScript", "Express.js", "Koa", ".NET 8", "C#"]
+  - name: "Databases"
+    keywords: ["MySQL", "PostgreSQL", "MongoDB"]
+  - name: "DevOps & Cloud"
+    keywords: ["Docker", "GitHub Actions", "CI/CD", "AWS EC2", "Oracle Cloud", "Coolify", "Cloudflare Tunnels"]
   - name: "Testing"
-    level: ""
-    keywords:
-      - "Junit"
-      - "Mockito"
-      - "Jest"
-      - "Vitest"
-  - name: "DevOps y Herramientas"
-    level: ""
-    keywords:
-      - "Docker"
-      - "Kubernetes"
-      - "Jenkins"
-      - "Ansible"
-      - "GIT"
-      - "GitHub Actions"
-      - "Vagrant"
-      - "Swagger"
-      - "JIRA"
-      - "Postman"
+    keywords: ["JUnit", "Mockito", "Jest", "Vitest"]
+  - name: "Agile & Tools"
+    keywords: ["SCRUM", "JIRA", "Postman", "Swagger", "Git", "GitHub", "Codespaces"]
+  - name: "Productivity & Environments"
+    keywords: ["Neovim", "LazyVim", "NvChad", "tmux", "Arch Linux", "Starship", "LazyGit"]
 
 languages:
   - language: "Español"
@@ -162,62 +104,59 @@ languages:
     fluency: "B2 - Usuario independiente avanzado"
 
 projects:
-  - name: "E-commerce API"
-    startDate: "2024-01"
-    endDate: "2024-06"
-    description: >-
-      Desarrollé una API REST completa para un e-commerce utilizando Spring Boot y Java.
-      El proyecto incluyó gestión de usuarios, productos, carritos de compra y procesamiento
-      de pedidos con integración de pagos.
+  - name: "Notifier"
+    description: "Plataforma de notificaciones multicanal con arquitectura de microservicios y diseño DDD."
     highlights:
-      - "Implementación de autenticación JWT y autorización basada en roles."
-      - "Diseño de base de datos relacional con MySQL."
-      - "Integración con servicios de pago externos."
-      - "Documentación completa con Swagger/OpenAPI."
+      - "Arquitectura basada en Domain-Driven Design (DDD) y Clean Architecture."
+      - "Microservicios internos: Identity (autenticación), Notification, Template y Channel."
+      - "Soporte multicanal: email (SMTP), Telegram Bot API "
+      - "Infraestructura local y cloud con Docker Compose + Cloudflare + GCP Gateway."
+      - "Testing completo con Vitest y fakes para dominios desacoplados."
     technologies:
-      - "Java"
-      - "Spring Boot"
-      - "Spring Security"
-      - "MySQL"
-      - "JPA/Hibernate"
-      - "JWT"
-      - "Swagger"
-      - "Maven"
-    url: "https://github.com/danny-mv/ecommerce-api"
-  - name: "Sistema de Gestión Empresarial"
-    startDate: "2023-08"
-    endDate: "2023-12"
-    description: >-
-      Desarrollé un sistema de gestión para una pequeña empresa utilizando Node.js y Express.
-      El sistema permite gestionar inventario, clientes y generar reportes automáticos.
+      ["Node.js", "TypeScript", "Express", "Zod", "BullMQ", "Redis", "Docker", "Cloudflare", "GCP", "Vitest"]
+
+  - name: "CuidaNet (NoCountry)"
+    description: "MVP sanitario desarrollado dentro del programa NoCountry para coordinación de citas y teleasistencia."
     highlights:
-      - "Migración de sistema legacy a tecnologías modernas."
-      - "Implementación de sistema de reportes automatizados."
-      - "Optimización de consultas de base de datos."
-    technologies:
-      - "Node.js"
-      - "Express"
-      - "MongoDB"
-      - "Mongoose"
-      - "Chart.js"
-      - "PDF Generation"
-    url: "https://github.com/danny-mv/management-system"
-  - name: "Bank REST API"
-    startDate: "2022-10"
-    endDate: "2022-10"
-    description: >-
-      Como proyecto final del bootcamp de Ironhack, desarrollé una API REST completa para un
-      sistema bancario, permitiendo la gestión de cuentas y la interacción entre diferentes perfiles
-      de usuario (Clientes, Administradores, Terceros).
+      - "Backend en Java + Spring Boot con dominio clínico interoperable (FHIR)."
+      - "Frontend en React con panel de citas, pacientes y administración."
+      - "Despliegue en AWS EC2 con Docker y CI/CD en GitHub Actions."
+    technologies: ["Java", "Spring Boot", "React", "PostgreSQL", "Docker", "AWS", "GitHub Actions"]
+
+  - name: "ConverSAfe-AI"
+    description: "Plataforma multi-servicio de análisis conversacional con IA generativa."
     highlights:
-      - "Aplicación de Test-Driven Development (TDD) con Junit y Mockito."
-      - "Integración con MySQL mediante Spring Data JPA/JDBC."
-    technologies:
-      - "Java"
-      - "Spring Boot"
-      - "MySQL"
-      - "JPA/JDBC"
-      - "JUnit"
-      - "Mockito"
-      - "TDD"
-    url: "https://github.com/danny-mv/bank-api"
+      - "FastAPI + LangChain + Groq para procesamiento y generación contextual."
+      - "RAG sobre PostgreSQL + pgvector para búsquedas semánticas."
+      - "Infraestructura con Docker Compose y Cloudflare Tunnels."
+    technologies: ["FastAPI", "LangChain", "Groq", "PostgreSQL", "pgvector", "Docker", "Cloudflare"]
+
+  - name: "Backend Systems (Bootcamps & MVPs)"
+    description: "Conjunto de APIs y sistemas empresariales desarrollados durante formación profesional y MVPs."
+    highlights:
+      - "E-commerce API con autenticación JWT, MySQL y Swagger/OpenAPI."
+      - "Bank REST API con TDD (JUnit + Mockito) y Spring Data JPA."
+      - "Business Management System con Node.js + MongoDB y reportes automáticos."
+    technologies: ["Java", "Spring Boot", "Node.js", "Express", "MySQL", "MongoDB", "Docker"]
+
+  - name: "Maily"
+    description: "Generador de correos inteligentes para PyMEs con RAG y FastAPI serverless."
+    highlights:
+      - "LangChain + Supabase + embeddings contextuales."
+      - "Despliegue serverless optimizado para respuesta rápida."
+    technologies: ["LangChain", "FastAPI", "Supabase", "RAG"]
+
+  - name: "Resume-NG"
+    url: "https://github.com/xp4n1c/resume-ng"
+    description: "Generador de CVs con Astro + Tailwind compatible con YAML/JSON Resume."
+    highlights:
+      - "Renderización estática, export PDF y Markdown automático."
+      - "Base del sitio actual: resume.dannymv.tech."
+    technologies: ["Astro", "Tailwind", "YAML", "JSON Resume"]
+
+  - name: "DevOps & Productivity Stack"
+    description: "Ecosistema de herramientas y entornos de desarrollo optimizados."
+    highlights:
+      - "Neovim (LazyVim/NvChad), tmux, Starship, Codespaces y Arch Linux."
+      - "Automatización y despliegue con Docker, GitHub Actions y Coolify."
+    technologies: ["Neovim", "tmux", "Arch Linux", "Docker", "Codespaces", "Coolify"]

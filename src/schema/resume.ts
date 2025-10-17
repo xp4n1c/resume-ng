@@ -18,7 +18,8 @@ export const resumeSchema = z
               .string()
               .describe(
                 "To add multiple address lines, use \n. For example, 1234 Glücklichkeit Straße\nHinterhaus 5. Etage li.",
-              ),
+              )
+              .optional(),
             postalCode: z.string(),
             city: z.string(),
             countryCode: z.string().describe("code as per ISO-3166-1 ALPHA-2, e.g. US, AU, IN"),
