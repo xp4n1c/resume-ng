@@ -5,15 +5,24 @@ basics:
   phone: "+34653163996"
   url: "https://github.com/danny-mv"
   website: "https://resume.dannymv.tech"
-  summary: >-
-    Backend Developer especializado en Java y Node.js, con experiencia práctica en proyectos de 
-    e-commerce, gestión empresarial, plataformas educativas y APIs financieras. 
-    Contribuí como líder backend en un MVP real (Punto Dulce) y colaboré en proyectos SCRUM de gran escala (ITA Wiki).
-    Apasionado por la IA generativa, he desarrollado soluciones con LangChain, FastAPI, Groq y RAG sobre PostgreSQL/pgvector 
-    en proyectos como ConverSAfe-AI y Maily. 
-    Certificado en DevOps Tools Engineer, con experiencia en despliegue de aplicaciones en Docker, GitHub Actions, AWS y Oracle Cloud. 
-    Busco aportar valor inmediato en un equipo de desarrollo mientras sigo creciendo en backend, IA generativa y DevOps.
+  summary: |
+    Como **Backend Developer** especializado en **Java** y **Node.js**, tengo experiencia práctica 
+    en el desarrollo de aplicaciones reales de **e-commerce**, **gestión empresarial**, 
+    **plataformas educativas** y **APIs financieras**.
 
+    Desempeñé el rol de **líder backend** en el MVP real *Punto Dulce* y colaboré en 
+    **proyectos SCRUM de gran escala** como *ITA Wiki*.
+
+    Apasionado por la **IA generativa**, he desarrollado soluciones con **LangChain**, **FastAPI**, **Groq** 
+    y **RAG** sobre **PostgreSQL/pgvector**, en proyectos como *ConverSAfe-AI* y *Maily*.
+
+    Además, estoy **certificado como DevOps Tools Engineer**, con experiencia en **Docker**, 
+    **GitHub Actions**, **AWS** y **Oracle Cloud** para despliegue y automatización de entornos.
+
+    ### Enfoque y objetivos
+
+    Busco **aportar valor inmediato** en un equipo de desarrollo mientras sigo creciendo en 
+    **backend**, **IA generativa** y **DevOps**.
   location:
     city: "Hospitalet de Llobregat"
     region: "Cataluña"
