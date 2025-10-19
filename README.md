@@ -55,6 +55,28 @@ npm run build
 
 The PDF will be saved in the `dist/` directory.
 
+### Screenshot tests with Docker
+
+Playwright can generate responsive screenshots without installing extra system libraries by using its official Docker image. Run the following commands from the repository root (adjust the tag if you upgrade Playwright):
+
+```bash
+docker run --rm \
+  -v "$PWD:/work" \
+  -w /work \
+  mcr.microsoft.com/playwright:v1.55.0-jammy \
+  bash -lc "npm ci && npm run astro:build && npm run test:screenshots -- --update-snapshots"
+```
+
+This updates the stored snapshots in `tests-screenshots/**-snapshots/`. When you only want to validate the screenshots, drop the `-- --update-snapshots` suffix:
+
+```bash
+docker run --rm \
+  -v "$PWD:/work" \
+  -w /work \
+  mcr.microsoft.com/playwright:v1.55.0-jammy \
+  bash -lc "npm run test:screenshots"
+```
+
 ## Version Management and Changelog Generation
 
 This project adheres to [Conventional Commits](https://www.conventionalcommits.org), a specification for adding human and machine-readable meaning to commit messages. This convention facilitates precise version management and changelog generation.
